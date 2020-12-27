@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LayoutPrincipal"
+    android:background="@mipmap/imagen_muestra"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bienvenida"
+        style="@style/Titulos"/>
+
+        <Button
+            android:id="@+id/contacto_btnSiguiente"
+            android:text="@string/boton_entrar"
+            style="@style/Botones"
+            />
+
+</LinearLayout>
